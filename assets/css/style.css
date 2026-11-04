@@ -69,6 +69,7 @@ img {
 }
 
 /* Nav */
+/* 375px */
 
 #site-header nav {
     max-width: 375px;
@@ -116,7 +117,7 @@ i {
 }
 
 /* Main */
-/* 576px */
+/* 375px */
 
 main {
     max-width: 375px;
@@ -685,7 +686,7 @@ form button:hover {
     }
 }
 
-/* 1200px */
+/* 1280px */
 
 @media screen and (min-width: 1280px) {
     #site-header h1 {
