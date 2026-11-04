@@ -297,12 +297,16 @@ main section h2::before {
     border-radius: 8px;
     position: relative;
     flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .project a {
     display: inline-block;
     color: hsl(220, 60%, 30%);
     text-decoration: none;
+    border-bottom: 3px solid transparent;
     font-weight: bold;
 }
 
